@@ -5,6 +5,7 @@
                     :if-does-not-exist :create)
     (format str "\\documentclass[12pt]{article}~%")
     
+    (format str "\\usepackage{chessboard}~%")
     (format str "\\usepackage[utf8]{inputenc}~%")
     (format str "\\usepackage[english]{babel}~%")
     (format str "\\usepackage{skak}~%")
